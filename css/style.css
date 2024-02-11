@@ -1,0 +1,300 @@
+body {
+    background-color: #E8E2DC;
+   
+}
+
+.header {
+    background-color:#5a6465;
+}
+
+h1, h3, h4,  p {
+    color:#196774;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    text-align:justify;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Protest Revolution', sans-serif;
+    margin-bottom: 50px;
+    color:#196774;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: 1.5rem!important;
+    margin-bottom: 2%;
+    font-weight: 400;
+    }
+
+hr {
+   margin-top: 15%;
+    height: 2px;
+    background-color: black;
+}
+
+img {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    border-radius: 2%;
+}
+
+a:hover { color: #58c8e7 !important; 
+}
+
+
+.description{
+    margin-top: 0;
+}
+
+.start {
+    margin-left: 5%;
+}
+
+.title {
+    background-color: #c8c7c8;
+        
+}
+
+.introduction {
+    border-bottom:25px solid rgb(147, 160, 129);
+}
+
+.intro {
+    background-color: white;
+}
+
+.fs-4, .nav-link, .ms-3 {
+    color: #ffffff;
+    letter-spacing: 0.1rem;
+}
+
+.fs-4 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.tParagraph {
+    margin-bottom: 2.5em;
+    color: #3c3c3c;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    overflow: hidden;
+}
+
+.d-grid {
+    padding-top: 50px;
+    padding-left: 150px;
+}
+
+.abrev {
+    padding-bottom: 1rem;
+}
+
+.item {
+    padding: 10px;
+    color: #1e5c36;
+    border-bottom: 0.5px solid #dd1d07;
+    border-top: 0.5px solid #dd1d07;
+}
+
+.contactTitle {
+    border-bottom: 2px solid #f6f3f2;
+    padding-bottom: 2%;
+    letter-spacing: .2rem;
+    font-weight:500;
+    
+}
+
+.nameInContact {
+    font-family: 'Protest Riot', sans-serif;
+    font-size: 3rem;
+
+}
+
+@media (max-width:700px){
+    .nameInContact{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:1000px){
+    .nav a:not(:first-child){
+        display:none!important;
+    }
+    .nav, a.icon {
+        float: right;
+        display: block;
+    }
+}
+@media (max-width: 1000px) {
+    .nav.responsive {position: relative;}
+    .nav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .nav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    
+}
+    
+.research {
+    margin-top: 5%;
+}
+
+.abInContact{
+    font-family: 'Protest Riot', sans-serif;
+}
+
+.contact{
+    padding-top: 4%;
+
+}
+
+.contactImage {
+    size: 100%;
+    left: auto;
+    right: auto;
+    
+}
+
+.text {
+    padding-left: 10%;
+    padding-bottom: 5%;
+    border-left: 2px solid #f6f3f2;
+}
+
+.pubTitle {
+    color: #1e5c36;
+}
+
+
+
+.phone, .address {
+    font-size: 1rem;
+    font-weight: 100;
+    
+}
+
+
+.tFooter {
+    height: 100px;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    background-color: rgb(181, 197, 160)
+
+}
+.tImage {
+    
+  float:left;
+  margin-left: auto;
+  margin-right: 1.5em;
+  border: 1px solid #dd1d07;
+  border-radius: 4px;
+  padding: 5px;
+  width: 200px;
+  
+    
+}
+.tImage2 {
+    
+    float:right;
+    margin-left: 1.5em;
+    margin-right: auto;
+    border: 1px solid #dd1d07;
+    border-radius: 4px;
+    padding: 5px;
+    width: 200px;
+      
+  }
+
+.d-block {
+    position: relative;
+    margin: 1px auto 5px auto;
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #2d2b2b;
+  
+}
+
+.rImage {
+  border: 1px solid #dd1d07;
+  border-radius: 4px;
+  padding: 5px;
+  width: 80%;
+  margin-bottom: 15px;
+  
+}
+
+.pImage {
+  border: 1px solid #0d0c0c;
+  border-radius: 4px;
+  padding: 5px;
+  width: 250px;
+}
+
+.containCarousel {
+    overflow: auto;
+    background-color: #ffffff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10rem;
+    width: 70%;
+    height: 500px;
+   
+}
+  
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+    outline: black;
+    background-color: #E8E2DC;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.carousel-p, h5 {
+    font-size: 1rem;
+    width:70%;
+    color: #196774;
+    font-family: 'Roboto', sans-serif;
+    
+}
+  
+@media (max-width:1000px){
+    .carousel-p{
+        font-size: 0.7rem;
+    }
+}
+  
+
+.carousel-indicators {
+    list-style-type: none;
+}
+
+.carousel-caption {
+    position: relative !important;
+    margin-top: 1.5%;
+    margin-bottom: 0;
+}
+
+.carousel-item{
+    padding-top: 15px;
+}
+
+  
+  
